@@ -168,14 +168,14 @@ package() {
   cd \
     "${_tarname}"
   make \
-    "${_make_opts[@]}"
+    "${_make_opts[@]}" \
     install-scripts
   if [[ "${_docs}" == "true" ]]; then
    make \
-    "${_make_opts[@]}"
+    "${_make_opts[@]}" \
     install-doc
     make \
-    "${_make_opts[@]}"
+    "${_make_opts[@]}" \
     install-man
   fi
 }
