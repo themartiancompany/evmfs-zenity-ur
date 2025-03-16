@@ -47,7 +47,7 @@ _docs="true"
 _pkg=evmfs-zenity
 pkgname="${_pkg}"
 pkgver="0.0.0.0.0.0.0.0.0.1"
-_commit="100a3606798a2bb8d18570d8e76c500949afe88f"
+_commit="e5442de702d6b07f23314b13010fb3742f07ca09"
 pkgrel=1
 _pkgdesc=(
   "Simple Ethereum Virtual Machine"
@@ -102,10 +102,10 @@ fi
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
-_archive_sum="9b84e90f9626790f35c853cb7f8bbe2a36a08392c5fc1ac5f26c37d1ef2f47e4"
+_archive_sum='fb3f22a10b5ee35c89be9cd6fa157b710754699b1d7b180976b9ac47e055a82f'
 _evmfs_archive_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sum}"
 _evmfs_archive_src="${_tarname}.zip::${_evmfs_archive_uri}"
-_archive_sig_sum="b6e6d738447c27572f01b5619da700805e754547f15ad31b2903bd5b31234b43"
+_archive_sig_sum="c0f36d7561ed049872cc91534a4d2999d6ffa0aa1a800cd7507b1cc66bdbb48e"
 _archive_sig_uri="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}/${_archive_sig_sum}"
 _archive_sig_src="${_tarname}.zip.sig::${_archive_sig_uri}"
 if [[ "${_evmfs}" == "true" ]]; then
